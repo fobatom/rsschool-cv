@@ -8,3 +8,9 @@ __Phone__: +375292216427
 __E-Mail__: deszkiewicz88@gmail.com
 __Telegram__: @fobosatom
 __GitHub__: fobatom
+
+* ## Skills ##
+ * HTML
+ * CSS
+ * JavaScript
+ * Git/GitHub
