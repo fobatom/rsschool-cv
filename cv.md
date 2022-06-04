@@ -16,8 +16,8 @@ I am 34 years old and I am looking for a job as a front-end developer. Responsib
 > * __Telegram__: @fobosatom
 > * __GitHub__: fobatom
 
->  ## Skills ##
+>  ## Skills 
 >  * HTML
 >  * CSS
 >  * JavaScript
->  * Git/GitHub
+>  * Git/GitHubgit
