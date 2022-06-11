@@ -13,7 +13,11 @@
     font-weight: 300;
 }
 body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
     font-weight: 100;
+    line-height: 1.5;
+    color: #4d2323;
     min-height: 100vh;
     margin: 0;
     padding: 0;
@@ -21,10 +25,27 @@ body {
     flex-direction: column;
     justify-content: space-between;
 }
+.section-title {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color:#5d7260
+}
+.nav-link {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.5s;
+  }
+  
+  .nav-link:hover {
+    color: #e9fe01;
+  }
 * {
     box-sizing: border-box;
 }
 .header { 
+    background-color: #5d7260;
 }
 .main {  
 }
@@ -38,7 +59,6 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    border: 1px solid red;
 }
 html {
     scroll-behavior: smooth;
@@ -49,7 +69,6 @@ html {
 .nav-link {
     padding: 0 20px;
     line-height: 50px;
-    border: 1px solid red;
 }
 .nav-link {
     transition: .3s;
@@ -74,3 +93,8 @@ html {
         width: 100%;
     }
 }
+
+.round {
+    width: 200px; height: 200px; /* Ширина и высота */
+    border-radius: 50%; /* Превращаем в круг */
+ }
