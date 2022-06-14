@@ -50,6 +50,7 @@ body {
 
 .footer { 
     background-color: #5d7260;
+    padding: 20px;
 }
 .container {
     max-width: 1440px;
@@ -114,7 +115,6 @@ html {
     filter: grayscale(0.2) brightness(1.05);
     transition: .3s;
   }
-
 .section-title {
     text-align: center;
 }
@@ -135,7 +135,6 @@ pre {
 #avatar {
     text-align: center;
 }
-
 .main-title::after {
     content: "";
     position: absolute;
@@ -173,4 +172,19 @@ h3 {
     letter-spacing: 10px;
     line-height: 50px;
     word-spacing: 3px;
+}
+.rss {
+    width: 121px;
+    height: 45px;
+    background-image: url(./assets/img/rs_school_js.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    color: #fff;
 }
