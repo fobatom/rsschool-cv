@@ -17,7 +17,7 @@ body {
     font-size: 18px;
     font-weight: 100;
     line-height: 1.5;
-    color: #4d2323;
+    color: #4f4545;
     min-height: 100vh;
     margin: 0;
     padding: 0;
@@ -29,7 +29,7 @@ body {
     font-size: 20px;
     font-weight: 400;
     text-transform: uppercase;
-    letter-spacing: 5px;
+    letter-spacing: 4px;
     color:#5d7260
 }
 .nav-link {
@@ -39,7 +39,7 @@ body {
   }
   
   .nav-link:hover {
-    color: #e9fe01;
+    color: #d9fb8a;
   }
 * {
     box-sizing: border-box;
@@ -74,14 +74,6 @@ html {
 .nav-link {
     transition: .3s;
 }
-.section-item a {
-    color: #829985;
-    text-decoration: none;
-    transition: color 0.5s;
-}
-.section-item a:hover {
-    color: #4d2323;
-}
 .main-container {
     display: flex;
     flex-wrap: wrap;
@@ -107,11 +99,10 @@ html {
     border-bottom: 15px solid #d7d1c9;
   }
 .section-profile-logo {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     object-fit: cover;
     border-radius: 50%;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, .9);
     filter: grayscale(0.2) brightness(1.05);
     transition: .3s;
   }
@@ -129,11 +120,13 @@ pre {
     line-height: 0.5em ;
     color: #acb2ad;
 }
-.projects-list li a {
+a {
+    color: #5d7260;
     text-decoration: none;
+    transition: color 0.5s;
 }
-#avatar {
-    text-align: center;
+a:hover {
+    color: #131312;
 }
 .main-title::after {
     content: "";
@@ -173,14 +166,6 @@ h3 {
     line-height: 50px;
     word-spacing: 3px;
 }
-.rss {
-    width: 121px;
-    height: 45px;
-    background-image: url(./assets/img/rs_school_js.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
 .footer-container {
     display: flex;
     justify-content: space-between;
